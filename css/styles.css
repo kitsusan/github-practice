@@ -1,0 +1,163 @@
+header img {
+    height: 70px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+body {
+    margin: 0;
+    background-color: #000000;
+    font-family: 'Cinzel', serif;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+main {
+    color: #ffffff;
+}
+
+/* Nav Bar */
+
+
+
+header {
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 25px 0 rgb(120, 16, 16);
+}
+
+header logo {
+    display: flex;
+    justify-items: flex-start;
+}
+
+header * {
+    display: inline;
+}
+
+header li {
+    margin: 20px;
+}
+
+header li a {
+    color: #faebd7;
+    text-decoration: none;
+}
+/* Hero */
+
+.hero {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: antiquewhite;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(/img/inari-red-temple.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hero h1 {
+    font-size: 5em;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+.hero .button {
+    display: block;
+    width: 200px;
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #faebd7;
+    text-decoration: none;
+    font-size: 1.5em;
+    border: 3px solid #faebd7;
+    border-radius: 20px;
+    background-color: rgba(194, 150, 53, 0.6)
+}
+
+/* Footer */
+
+.social-footer {
+    height: auto;
+    width: 50vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.fa {
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+  
+.fa-facebook {
+    background: #c29635;
+    color: #000000;
+}
+  
+.fa-instagram {
+    background: #c29635;
+    color: #000000;
+  }
+
+.fa-google {
+    background: #c29635;
+    color: #000000;
+}
+
+.fa-linkedin {
+    background: #c29635;
+    color: #000000;
+}
+
+/* About the Team */
+
+h2 {
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 32%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgb(120, 16, 16);
+}
+  
+.container {
+    padding: 0 10px;
+}
+  
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+  
+.title {
+    color: grey;
+}
