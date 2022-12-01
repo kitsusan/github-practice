@@ -46,10 +46,15 @@ header li {
     margin: 20px;
 }
 
+header li a:hover{
+    color: #AE2F16;
+}
+
 header li a {
     color: #faebd7;
     text-decoration: none;
 }
+
 /* Hero */
 
 .hero {
@@ -133,13 +138,21 @@ header li a {
 
 /* About the Team */
 
+.wrapper {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
 h2 {
     text-align: center;
 }
 
 .column {
     float: left;
-    width: 32%;
+    width: 30%;
     margin-bottom: 16px;
     padding: 0 8px;
 }
