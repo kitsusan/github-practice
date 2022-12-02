@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 header img {
     height: 70px;
     margin-top: 5px;
@@ -46,6 +51,10 @@ header li {
     margin: 20px;
 }
 
+header li a:visited{
+    color: #585151;
+}
+
 header li a:hover{
     color: #AE2F16;
 }
@@ -54,6 +63,7 @@ header li a {
     color: #faebd7;
     text-decoration: none;
 }
+
 
 /* Hero */
 
@@ -93,21 +103,48 @@ header li a {
     background-color: rgba(194, 150, 53, 0.6)
 }
 
+.button:hover {
+    background-color: rgba(194, 150, 53, 0.8);
+}
+
+
+
 /* Footer */
+
+footer {
+    background-color: rgb(33, 32, 32);
+}
+
+.footer-menu {
+    font-size: 10px;
+    padding: 50px 0;
+    text-align: center;
+  }
+
+footer li a {
+    color: #faebd7;
+    text-decoration: none;
+}
+
+.footer-menu ul {
+    list-style: none;
+    display: table;
+    margin: 0 auto;
+}
 
 .social-footer {
     height: auto;
-    width: 50vw;
+    width: 30vw;
     margin: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: center ;
     flex-wrap: wrap;
 }
 .fa {
     margin: 10px;
     padding: 10px;
-    font-size: 20px;
-    width: 50px;
+    font-size: 10px;
+    width: 25px;
     text-align: center;
     text-decoration: none;
 }
@@ -126,15 +163,33 @@ header li a {
     color: #000000;
   }
 
-.fa-google {
-    background: #c29635;
-    color: #000000;
-}
-
 .fa-linkedin {
     background: #c29635;
     color: #000000;
 }
+
+.vl {
+    border-left: 0.5px solid #c29635;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50%;
+    margin-right: 50%;
+    
+  }
+
+  .footer-menu {
+    color: grey;
+    height: 150px;
+}
+
+
+
+
+
+
+
+
 
 /* About the Team */
 
@@ -171,6 +226,3 @@ h2 {
     display: table;
 }
   
-.title {
-    color: grey;
-}
