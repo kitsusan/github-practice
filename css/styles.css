@@ -34,8 +34,6 @@ main {
 
 /* Nav Bar */
 
-
-
 header {
     background-color: #000000;
     position: fixed;
@@ -120,9 +118,18 @@ header li a {
 
 /* index */
 
-.offerings h3 {
+.offerings-row h3 {
     color: #c29635;
 }
+
+.offerings-row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Testimonials */
+
 
 
 /* Footer */
