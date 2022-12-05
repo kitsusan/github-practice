@@ -1,3 +1,5 @@
+/* Site Wide */
+
 * {
     margin: 0;
     padding: 0;
@@ -19,6 +21,15 @@ body {
 
 main {
     color: antiquewhite;
+}
+
+.wrapper {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 /* Nav Bar */
@@ -107,6 +118,11 @@ header li a {
     background-color: rgba(194, 150, 53, 0.8);
 }
 
+/* index */
+
+.offerings h3 {
+    color: #c29635;
+}
 
 
 /* Footer */
@@ -183,24 +199,7 @@ footer li a {
     height: 150px;
 }
 
-
-
-
-
-
-
-
-
-/* About the Team */
-
-.wrapper {
-    max-width: 900px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 100px;
-    padding-left: 16px;
-    padding-right: 16px;
-}
+/* About */
 
 .wrapper h2 {
     text-align: center;
@@ -212,10 +211,12 @@ footer li a {
     width: 30%;
     margin-bottom: 16px;
     padding: 0 8px;
+    
 }
 
 .card {
     box-shadow: 0 4px 8px 0 rgb(120, 16, 16);
+    height: 1190px;
 }
   
 .container {
@@ -238,10 +239,11 @@ footer li a {
     margin-bottom: 20px;
     text-align: center;
 }
-  
+ 
 .container::after, .row::after {
     content: "";
     clear: both;
     display: table;
 }
+
   
